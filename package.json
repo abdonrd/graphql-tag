@@ -8,7 +8,8 @@
   "scripts": {
     "bundle": "rollup -c && cp src/index.js.flow lib/graphql-tag.umd.js.flow",
     "test": "mocha test/graphql.js",
-    "prepublish": "npm run bundle"
+    "prepublish": "npm run bundle",
+    "prepare": "npm run bundle"
   },
   "repository": {
     "type": "git",
