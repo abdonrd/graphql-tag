@@ -3,8 +3,8 @@
   "version": "2.10.3",
   "description": "A JavaScript template literal tag that parses GraphQL queries",
   "main": "./lib/graphql-tag.umd.js",
-  "module": "./src/index.js",
-  "jsnext:main": "./src/index.js",
+  "module": "./lib/graphql-tag.js",
+  "jsnext:main": "./lib/graphql-tag.js",
   "scripts": {
     "bundle": "rollup -c && cp src/index.js.flow lib/graphql-tag.umd.js.flow",
     "test": "mocha test/graphql.js",
